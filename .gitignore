@@ -1,0 +1,28 @@
+# Segredos e ambiente local
+.env
+.env.*
+!.env.example
+
+# Logs, caches e temporários
+*.log
+*.cache
+*.tmp
+*.temp
+/cache/
+/logs/
+/tmp/
+/temp/
+/storage/
+
+# Sistema e IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Caches de ferramentas PHP
+.phpunit.result.cache
+.php-cs-fixer.cache
